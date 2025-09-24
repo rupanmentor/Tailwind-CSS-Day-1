@@ -3,28 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Typography</title>
   </head>
   <body>
-    <h1 >Typography</h1>
+    <h1 class="text-2xl font-bold underline text-red-500">Typography</h1>
     <!-- Font Size -->
     <!-- https://tailwindcss.com/docs/font-size -->
-    <h1>Font Size</h1>
-  
+    <h1 class="text-2xl font-bold underline text-red-500">Font Size</h1>
+     <div class="container bg-teal-600 p-7 mb-10">
+       <p class="text-xs">Hi Hello How are you?</p>
+       <p class="text-sm">Hi Hello How are you?</p>
+       <p class="text-base">Hi Hello How are you?</p>
+       <p class="text-lg">Hi Hello How are you?</p>
+       <p class="text-xl">Hi Hello How are you?</p>
+       <p class="text-2xl">Hi Hello How are you?</p>
+       <p class="text-3xl">Hi Hello How are you?</p>
+       <p class="text-4xl">Hi Hello How are you?</p>
+       <p class="text-5xl">Hi Hello How are you?</p>
+       <p class="text-6xl">Hi Hello How are you?</p>
+       <p class="text-7xl">Hi Hello How are you?</p>
+       <p class="text-8xl">Hi Hello How are you?</p>
+       <p class="text-9xl">Hi Hello How are you?</p>
+       <!-- <p class="text-[1000px]">Hi Hello How are you?</p> -->
+     </div>
 
     <!-- Font Family -->
     <!-- https://tailwindcss.com/docs/font-family -->
-    <h1>Font Family</h1>
-   
+    <h1 class="text-2xl font-bold underline text-red-500">Font Family</h1>
+   <div class="container bg-teal-600 p-7 mb-10">
+     <p class="text-2xl font-sans">Hi Hello How are you?</p>
+       <p class="text-2xl font-serif">Hi Hello How are you?</p>
+       <p class="text-2xl font-mono">Hi Hello How are you?</p>
+   </div>
 
     <!-- Font Weight -->
     <!-- https://tailwindcss.com/docs/font-weight -->
-    <h1>Font Weight</h1>
-    
+     <h1 class="text-2xl font-bold underline text-red-500">Font Weight</h1>
+   <div class="container p-7 mb-10">
+     <p class=" font-serif font-extralight">Hi Hello How are you?....</p>
+       <p class="font-serif font-light">Hi Hello How are you?</p>
+       <p class="font-serif font-normal">Hi Hello How are you?</p>
+       <p class="font-serif font-medium">Hi Hello How are you?</p>
+       <p class="font-serif font-semibold">Hi Hello How are you?</p>
+       <p class="font-serif font-bold">Hi Hello How are you?</p>
+       <p class="font-serif font-extrabold">Hi Hello How are you?</p>
+   </div>
     <!-- Letter Spacing -->
     <!-- https://tailwindcss.com/docs/letter-spacing -->
-    <h1>Letter Spacing</h1>
-   
+    <h1 class="text-2xl font-bold underline text-red-500">Letter Spacing</h1>
+   <div class="container p-7 mb-10">
+     <p class="tracking-tighter">Hi Hello How are you?....</p>
+       <p class="tracking-tight">Hi Hello How are you?</p>
+       <p class="tracking-normal">Hi Hello How are you?</p>
+       <p class="tracking-wide">Hi Hello How are you?</p>
+       <p class="tracking-wider">Hi Hello How are you?</p>
+       <p class="tracking-widest">Hi Hello How are you?</p>
+   </div>
 
     <!-- Text Alignment -->
     <!-- https://tailwindcss.com/docs/text-align -->
@@ -33,19 +68,39 @@
 
     <!-- Text Decoration -->
     <!-- https://tailwindcss.com/docs/text-decoration-thickness -->
-    <h1>Text Decoration</h1>
-   
+     <h1 class="text-2xl font-bold underline text-red-500 mb-10">Text Decoration</h1>
+    <p class="line-through">Tailwind css</p>
+    <p class="overline">Tailwind css</p>
+    <p class="underline">Tailwind css</p>
+    <p class="underline decoration-red-600">Tailwind css</p>
 
     <!-- Decoration Style -->
-    <h1>Text Decoration Style</h1>
-    
+    <h1 class="text-2xl font-bold underline text-red-500">Text Decoration Style</h1>
+    <div class="container p-7 mb-10">
+     <p class="underline decoration-solid">Hi Hello How are you?....</p>
+       <p class="underline decoration-double">Hi Hello How are you?</p>
+       <p class="underline decoration-dotted">Hi Hello How are you?</p>
+       <p class="underline decoration-dashed">Hi Hello How are you?</p>
+       <p class="underline decoration-wavy">Hi Hello How are you?</p>
+   </div>
 
     <!-- Decoration Offset -->
-    <h1>Text Decoration Offset</h1>
-   
+    <h1 class="text-2xl font-bold underline text-red-500">Text Decoration Offset</h1>
+   <div class="container p-7 mb-10">
+     <p class="underline underline-offset-1">Hi Hello How are you?....</p>
+       <p class="underline underline-offset-4">Hi Hello How are you?</p>
+       <p class="underline underline-offset-8">Hi Hello How are you?</p>
+
+   </div>
     <!-- Text Transform -->
     <!-- https://tailwindcss.com/docs/text-transform -->
-    <h1>Text Transform</h1>
-    
+    <h1 class="text-2xl font-bold underline text-red-500">Text Transform</h1>
+     <div class="container p-7 mb-10">
+     <p class="normalcase">Hi Hello How are you?....</p>
+       <p class="uppercase">Hi Hello How are you?</p>
+       <p class="lowercase">Hi Hello How are you?</p>
+        <p class="capitalize">hi hello how are you?</p>
+
+   </div>
   </body>
 </html>
