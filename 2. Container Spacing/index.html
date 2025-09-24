@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Container & Spacing</title>
     <style>
       body {
@@ -11,30 +12,50 @@
     </style>
   </head>
   <body>
-    <h1>Containers and Spacing</h1>
+    <h1 class="text-2xl font-bold underline text-red-500">Containers and Spacing</h1>
     <!-- Margin -->
     <!-- https://tailwindcss.com/docs/margin -->
     
-    <h1 class="underline">Margin</h1>
-    
+    <h1 class="text-2xl font-bold underline text-red-500">Margin</h1>
+    <div class="bg-yellow-300 m-10">Margin All around</div>
+    <div class="bg-yellow-400 mx-30">Margin X-axis</div>
+    <div class="bg-yellow-500 my-10">Margin Y-axis</div>
+    <div class="bg-yellow-600 mt-25">Margin Top</div>
+    <div class="bg-yellow-700 mr-25">Margin Right</div>
+    <div class="bg-yellow-800 mb-25">Margin Bottom</div>
+    <div class="bg-yellow-900 ml-25">Margin Left</div>
     
     <!-- Arbitrary/Custom Spacing -->
     
-    <h1>Aribitrary Values</h1>
-   
+    <h1 class="text-2xl font-bold underline text-red-500">Aribitrary Values</h1>
+    <div class="bg-slate-500 m-[50px]">Arbitary</div>
     
     <!-- Padding -->
     <!-- https://tailwindcss.com/docs/padding -->
     
-    <h1 class="underline">Padding</h1>
-  
+    <h1 class="text-2xl font-bold underline text-red-500">Padding</h1>
+  <div class="bg-yellow-300 p-10">Padding All around</div>
+    <div class="bg-yellow-400 px-30">Padding X-axis</div>
+    <div class="bg-yellow-500 py-10">Padding Y-axis</div>
+    <div class="bg-yellow-600 pt-25">Padding Top</div>
+    <div class="bg-yellow-700 pr-25">Padding Right</div>
+    <div class="bg-yellow-800 pb-25">Padding Bottom</div>
+    <div class="bg-yellow-900 pl-25">Padding Left</div>
 
     <!-- https://tailwindcss.com/docs/space -->
     <!-- Space Between X -->
-   <h3>Space Between X</h3>
- 
+   <h3 class="text-2xl font-bold underline text-red-500">Space Between X</h3>
+  <div class="flex space-x-5">
+    <div class="bg-teal-300 p-4">1</div>
+    <div class="bg-teal-400 p-4">2</div>
+    <div class="bg-teal-500 p-4">3</div>
+  </div>
     <!-- Space Between Y -->
-    <h3>Space Between Y</h3>
-  
+    <h3 class="text-2xl font-bold underline text-red-500 mt-5">Space Between Y</h3>
+  <div class="flex flex-col space-y-5">
+    <div class="bg-teal-300 p-4">1</div>
+    <div class="bg-teal-400 p-4">2</div>
+    <div class="bg-teal-500 p-4">3</div>
+  </div>
   </body>
 </html>
