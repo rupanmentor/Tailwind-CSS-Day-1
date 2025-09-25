@@ -3,12 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>TailwindCSS</title>
   </head>
   <body class="p-20">
      <!-- https://tailwindcss.com/docs/position -->
-     <h1>Position</h1>
-     
+     <h1 class="text-2xl font-bold underline text-red-500 mb-3">Position</h1>
+     <div class="w-1/2 h-40 bg-green-400 relative ">
+      <p>Relative</p>
+      <div class="bg-teal-700 w-2/3 h-20 absolute bottom-0 right-0">
+        <p>Absolute</p>
+      </div>
+     </div>
  
      <!-- https://tailwindcss.com/docs/display -->
      <h1 class="mb-3">Display</h1>
