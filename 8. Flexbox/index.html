@@ -3,11 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flex</title>
   </head>
   <body>
     <!-- https://tailwindcss.com/docs/flex -->
-   
+   <div class="border m-10">
+   <ul class="flex">
+    <li class="bg-teal-400 m-4 p-4">1</li>
+    <li class="bg-teal-400 m-4 p-4 ">2</li>
+    <li class="bg-teal-400 m-4 p-4 ">3</li>
+    <li class="bg-teal-400 m-4 p-4 ">3</li>
+   </ul>
+   </div>
+
+   <div class="border m-10">
+ <div class="flex w-auto bg-teal-300">
+   <div class="p-5 m-3 w-64 bg-teal-700 flex-none" >1</div>
+   <div class="p-5 m-3 w-64 bg-teal-700 flex-initial" >2</div>
+   <div class="p-5 m-3 w-64 bg-teal-700 flex-auto" >3</div>
+    <div class="p-5 m-3 w-64 bg-teal-700 flex-1" >4</div>
+     <div class="p-5 m-3 bg-teal-700" >3</div>
+      <div class="p-5 m-3  bg-teal-700" >3</div>
+       <div class="p-5 m-3  bg-teal-700" >3</div>
+ </div>
+   </div>
 
     <!-- https://tailwindcss.com/docs/flex-direction#column -->
   
