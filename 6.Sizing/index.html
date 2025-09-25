@@ -53,7 +53,7 @@
     <!-- Max Width -->
     <!-- https://tailwindcss.com/docs/max-width -->
     <h1 class="text-2xl font-bold underline text-red-500 mt-5">Max Width</h1>
-    <div class="bg-yellow-400 p-10 mb-10 max-w-screen-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam minus excepturi similique eius ab officia, dignissimos pariatur exercitationem. Totam repudiandae inventore facere. Perferendis quod sapiente vero ipsa facere ad.
+    <div class="bg-yellow-400 p-10 mb-10 max-w-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quisquam minus excepturi similique eius ab officia, dignissimos pariatur exercitationem. Totam repudiandae inventore facere. Perferendis quod sapiente vero ipsa facere ad.
     Consectetur officiis tenetur, ratione minima molestiae delectus, fugit, nemo voluptatibus odit alias beatae inventore aut quibusdam distinctio dolore. Doloremque quo doloribus perferendis dolor iusto facilis maiores, suscipit tenetur facere rerum.
     Delectus commodi est, sapiente non nostrum dolor maxime odit expedita, voluptates dolorum praesentium. Sequi illo, reprehenderit iure explicabo a eligendi? Maiores id quidem impedit rerum esse aperiam? Sapiente, quaerat recusandae?
     Soluta, beatae unde. Doloremque, at reiciendis vitae earum ratione perspiciatis facilis unde quas ab inventore architecto consectetur, repellat neque rerum id. Debitis autem quas dignissimos sit tenetur quae voluptatibus similique.
@@ -72,21 +72,34 @@
 
      <div class="bg-green-400 my-8 p-5 w-[800px]">Arbitary width</div>
 
-    <!-- Height (Most of the same options as widths) -->
+     <!-- Height (Most of the same options as widths) -->
     <!-- https://tailwindcss.com/docs/height -->
-    <h1 >Height All Around</h1>
-    
+    <h1 class="mt-5">Height All Around</h1>
+    <div class="flex items-end mt-20 mb-10">
+      <div class="bg-indigo-400 ml-5 h-24">height 24</div>
+      <div class="bg-indigo-400 ml-5 h-32">height 32</div>
+      <div class="bg-indigo-400 ml-5 h-40">height 40</div>
+      <div class="bg-indigo-400 ml-5 h-48">height 48</div>
+      <div class="bg-indigo-400 ml-5 h-64">height 64</div>
+      <div class="bg-indigo-400 ml-5 h-80">height 80</div>
+    </div>
 
     <!-- Min Height -->
     <!-- https://tailwindcss.com/docs/min-height -->
-    <h1 >Min Height Full</h1>
-    
+    <h1 class="mt-5">Min Height Full</h1>
+    <div class="p-5  bg-green-300 mb-5 h-[400px]">
+      <div class=" bg-teal-400 min-h-full">Take Full Height</div>
+    </div>
 
     <!-- Max Height -->
     <!-- https://tailwindcss.com/docs/max-height -->
-    
+    <div class=" bg-orange-200 mb-10 h-[150px]">
+      <div class="m-20 bg-orange-500 h-48 max-h-full ">Max Height Full</div>
+    </div>
+
     <!-- Full screen height -->
-    <h1 >Full Screen Height</h1>
+    <h1 class="mb-2">Full Screen Height</h1>
+    <div class="bg-pink-300 mb-4 h-screen">Hello</div>
    
     <!-- Width Auto -->
    <div class="bg-green-400 my-8 p-5 w-auto">auto width</div>
